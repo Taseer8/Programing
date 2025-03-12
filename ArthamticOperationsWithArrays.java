@@ -78,4 +78,19 @@ public class ArthamticOperationsWithArrays {
         }
 
     }
+    public static  int[] add1toarray(int arr[]){
+        for (int i = arr.length-1; i>0; i--){
+            if(arr[i] < 9){
+                arr[i] ++ ;
+//                arr[i]++;
+                return arr;
+
+            }
+            arr[i] =0;
+//            System.out.println(arr[0]);
+        }
+        int[] number = new int[arr.length-1];
+        number[0] =2;
+return number;
+    }
 }
