@@ -85,7 +85,6 @@ public class SubArray {
     }
     public static  void findTheIndexValueOfParticularValue(int array[]){
         for (int i =0; i< array.length; i++){
-            boolean isUnique =true;
             for (int j=0;j< array.length; j++){
                 if(i!=j && array[i]==array[j]){
                     System.out.println("index value is:" +i);
